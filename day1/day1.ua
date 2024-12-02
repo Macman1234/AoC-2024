@@ -13,4 +13,4 @@
 ⊢⟜⊣⍉
 # construct array of occurrences
 # then multiply by value
-/+×⟜(≡(/+)⊞⌕)
+/+*⟜(≡(/+)⊞⌕)
