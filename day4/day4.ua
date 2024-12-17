@@ -1,12 +1,12 @@
 # Experimental!
-&fras "example"
+&fras "input"
 
 # parse input string into array
 ⊜∘⊸≠@\n
 
-OrthoViews ← ≡⇌.⍉.≡⇌
+OrthoViews ← {≡⇌. ⍉. ≡⇌. ∘}
 
-⊸OrthoViews
+OrthoViews
 
 GetDiags ← (
   +1+⇡⟜(↯⟜⇡)⊸⧻
@@ -14,5 +14,10 @@ GetDiags ← (
   ⍆⟜⍏
   ⊜□⊙⊏
 )
+⟜(⍚(GetDiags)⊏[0 1])
 
-⊸GetDiags
+/+⍚(/+/+⌕"XMAS")
+:
+⊂⍚⍚(⇌).
+/+°□/+⍚⍚(/+⌕"XMAS")
++
