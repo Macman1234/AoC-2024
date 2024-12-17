@@ -1,8 +1,18 @@
+# Experimental!
 &fras "example"
 
 # parse input string into array
 ⊜∘⊸≠@\n
 
-OrthoViews ← ≡⇌.⍉.≡⇌.
+OrthoViews ← ≡⇌.⍉.≡⇌
 
-OrthoViews
+⊸OrthoViews
+
+GetDiags ← (
+  +1+⇡⟜(↯⟜⇡)⊸⧻
+  ∩(/⊂)
+  ⍆⟜⍏
+  ⊜□⊙⊏
+)
+
+⊸GetDiags
